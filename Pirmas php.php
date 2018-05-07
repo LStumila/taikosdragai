@@ -15,3 +15,9 @@ if (isset($_POST['name'])&& !empty($_POST ['name'])) {
 if (isset($_POST['age'])&& !empty($_POST ['age'])) {
     echo " Amzius {$_POST['age']}!";
 }
+
+
+
+
+
+
