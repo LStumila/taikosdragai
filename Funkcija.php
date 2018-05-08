@@ -17,7 +17,7 @@ function grazinimas ($weight, $height)
 return $plotas;
 }
 plotas(5);
-plotas(64,51);
+plotas(64,551);
 plotas(74,7);
 plotas(4,25);
 pranesimas();
