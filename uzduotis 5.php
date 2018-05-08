@@ -1,6 +1,11 @@
 <?php
-$cel= 3
+function plyteliuKiekis($plytelesX,$plytelesY,$sienosPlotas )
 {
-    echo ceil($cel);
+$plytelesplotas=$plytelesX + 0.4 * $plytelesY +0.4 ;
+$plyteliuKiekis =ceil($sienosPlotas/ $plytelesplotas) ;
+echo 'Reikalinga:' . $plyteliuKiekis . "  ".  'plyteliu';
+
+
 
 }
+plyteliuKiekis(12,12,1000);
