@@ -19,7 +19,6 @@ if (isset($numbers['kaina']) && isset($numbers['santaupos'])) {
 
     $sum = $numbers['santaupos'] - $numbers['kaina'];
     echo $sum;
-
-}
+   }
 
 

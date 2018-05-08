@@ -1,6 +1,6 @@
 <?php
 $number = 5 ;
-echo abs($number) . <br> ; sveeikas skaicius
+echo abs($number) .<br> ; sveeikas skaicius
 
 $ceil = 3.6
     echo ceil ($ceil) .<br> ; apvalina
@@ -12,7 +12,11 @@ echo min($mas)   didziausia ir maziausia is masyvo
 echo max ($max)
 
 echo mt_rand(). random skaicius
-echo pi()
+echo pi() pi skaicius
  $sqrt = 4;    kvadratine saknis
-echo $sqrt ($sqrt)
+echo $sqrt ($sqrt);
 
+$Kintamasis =  round($ceil,2);
+    $kintamasis= abs($kintamasis);
+        $kintamasis= abs (round($ceil,2));
+ echo $kintamasis;
